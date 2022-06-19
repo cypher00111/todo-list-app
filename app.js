@@ -10,7 +10,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", {
+mongoose.connect("mongodb+srv://admin-migangko:Ninja123@cluster0.4co9mgs.mongodb.net/todolistDB", {
   useNewUrlParser: true,
 });
 
